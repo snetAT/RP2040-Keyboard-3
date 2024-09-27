@@ -4,12 +4,7 @@ RP2040-Keyboard-3
   
   https://www.zfrontier.com/lab/keyboardTester
 
-  These macro definitions can be found in the HID_Keyboard.h file.
-  
-  Click Ctrl-F12 on #include "Keyboard.h" -> #include <HID_Keyboard.h>
+  Macro definitions can be found in the HID_Keyboard.h file. Click Ctrl-F12 on #include "Keyboard.h" -> #include <HID_Keyboard.h>
 
-  Seitch to Drive Mode "sudo stty -F /dev/ttyACM0 1200"
-  
-  cp /tmp/arduino/sketches/xxxxxxxx/RP2040-Keyboard-3.ino.uf2
-  
-  
+  Switch to Drive Mode "sudo stty -F /dev/ttyACM0 1200" and copy /tmp/arduino/sketches/xxxxxxxx/RP2040-Keyboard-3.ino.uf2 to mounted Folder.
+   
